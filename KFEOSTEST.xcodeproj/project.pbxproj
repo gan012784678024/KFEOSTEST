@@ -13,7 +13,6 @@
 		70A8BE1E2272AD8000BCC80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BE1D2272AD8000BCC80C /* Assets.xcassets */; };
 		70A8BE212272AD8000BCC80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BE1F2272AD8000BCC80C /* LaunchScreen.storyboard */; };
 		70A8BE242272AD8000BCC80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE232272AD8000BCC80C /* main.m */; };
-		70A8BEA82272ADC900BCC80C /* EOSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7F2272ADC900BCC80C /* EOSModel.m */; };
 		70A8BEFF2272B81700BCC80C /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEAE2272B81700BCC80C /* AnyDecodable.swift */; };
 		70A8BF002272B81700BCC80C /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEAF2272B81700BCC80C /* AnyCodable.swift */; };
 		70A8BF012272B81700BCC80C /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB02272B81700BCC80C /* AnyEncodable.swift */; };
@@ -54,6 +53,7 @@
 		70A8BF242272B81700BCC80C /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFC2272B81700BCC80C /* base58.c */; };
 		70A8BF252272B81700BCC80C /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFD2272B81700BCC80C /* ecdsa.c */; };
 		70A8BF262272B81700BCC80C /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFE2272B81700BCC80C /* pbkdf2.c */; };
+		70A8BF292272BB8300BCC80C /* EOSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BF282272BB8300BCC80C /* EOSModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,8 +67,6 @@
 		70A8BE202272AD8000BCC80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A8BE222272AD8000BCC80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A8BE232272AD8000BCC80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70A8BE7E2272ADC900BCC80C /* EOSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSModel.h; sourceTree = "<group>"; };
-		70A8BE7F2272ADC900BCC80C /* EOSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSModel.m; sourceTree = "<group>"; };
 		70A8BEAE2272B81700BCC80C /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
 		70A8BEAF2272B81700BCC80C /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
 		70A8BEB02272B81700BCC80C /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
@@ -130,6 +128,8 @@
 		70A8BEFC2272B81700BCC80C /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
 		70A8BEFD2272B81700BCC80C /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
 		70A8BEFE2272B81700BCC80C /* pbkdf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
+		70A8BF272272BB8200BCC80C /* EOSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSModel.h; sourceTree = "<group>"; };
+		70A8BF282272BB8300BCC80C /* EOSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +164,6 @@
 			children = (
 				70A8BED62272B81700BCC80C /* Libraries */,
 				70A8BEAC2272B81700BCC80C /* Sources */,
-				70A8BE7E2272ADC900BCC80C /* EOSModel.h */,
-				70A8BE7F2272ADC900BCC80C /* EOSModel.m */,
 				70A8BE142272AD7E00BCC80C /* AppDelegate.h */,
 				70A8BE152272AD7E00BCC80C /* AppDelegate.m */,
 				70A8BE172272AD7E00BCC80C /* ViewController.h */,
@@ -357,6 +355,8 @@
 		70A8BED62272B81700BCC80C /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				70A8BF272272BB8200BCC80C /* EOSModel.h */,
+				70A8BF282272BB8300BCC80C /* EOSModel.m */,
 				70A8BED72272B81700BCC80C /* include */,
 				70A8BEEF2272B81700BCC80C /* Bridging-Header.h */,
 				70A8BEF02272B81700BCC80C /* src */,
@@ -499,12 +499,12 @@
 				70A8BF202272B81700BCC80C /* ripemd160.c in Sources */,
 				70A8BF1D2272B81700BCC80C /* curves.c in Sources */,
 				70A8BE192272AD7E00BCC80C /* ViewController.m in Sources */,
-				70A8BEA82272ADC900BCC80C /* EOSModel.m in Sources */,
 				70A8BF092272B81700BCC80C /* Signature.swift in Sources */,
 				70A8BF192272B81700BCC80C /* bip39.c in Sources */,
 				70A8BF172272B81700BCC80C /* platform-specific.inc in Sources */,
 				70A8BE242272AD8000BCC80C /* main.m in Sources */,
 				70A8BF042272B81700BCC80C /* Transaction.swift in Sources */,
+				70A8BF292272BB8300BCC80C /* EOSModel.m in Sources */,
 				70A8BF072272B81700BCC80C /* ResourceUtil.swift in Sources */,
 				70A8BF222272B81700BCC80C /* bip32.c in Sources */,
 				70A8BF032272B81700BCC80C /* TransactionUtil.swift in Sources */,
