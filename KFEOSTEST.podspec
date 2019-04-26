@@ -8,18 +8,11 @@ s.homepage    = 'https://github.com/gan012784678024/KFEOSTEST'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.authors     = { 'gan012784678024' => 'qingliandaofan@163.com' }
 s.source           = { :git => 'https://github.com/gan012784678024/KFEOSTEST.git', :tag => s.version.to_s }
-s.ios.deployment_target = '12.2'
+s.ios.deployment_target = '9.0'
+s.requires_arc = true
+s.platform = :ios, '9.0'
+s.source_files = 'KFEOSTEST/KFEOSSDK/**/*.{h,m,mm,c}'
+s.public_header_files = 'KFEOSTEST/KFEOSSDK/*'
 
-s.source_files = 'KGFONTSDK/**/*.{h,m,mm,c}'
-s.public_header_files = 'KGFONTSDK/*'
-
-s.dependency 'AFNetworking', '~> 2.6.3'
-s.dependency 'MJExtension'
-s.dependency 'MTDates'
-#s.frameworks = 'neoutils'
-
-s.vendored_frameworks = [
-'KGFONTSDK/ONTCore/neoutils.framework',
-]
 
 end
