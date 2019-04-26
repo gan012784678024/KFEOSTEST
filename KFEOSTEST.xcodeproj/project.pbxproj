@@ -13,47 +13,47 @@
 		70A8BE1E2272AD8000BCC80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BE1D2272AD8000BCC80C /* Assets.xcassets */; };
 		70A8BE212272AD8000BCC80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BE1F2272AD8000BCC80C /* LaunchScreen.storyboard */; };
 		70A8BE242272AD8000BCC80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE232272AD8000BCC80C /* main.m */; };
-		70A8BE802272ADC900BCC80C /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE2D2272ADC900BCC80C /* AnyDecodable.swift */; };
-		70A8BE812272ADC900BCC80C /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE2E2272ADC900BCC80C /* AnyCodable.swift */; };
-		70A8BE822272ADC900BCC80C /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE2F2272ADC900BCC80C /* AnyEncodable.swift */; };
-		70A8BE832272ADC900BCC80C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE322272ADC900BCC80C /* Crypto.swift */; };
-		70A8BE842272ADC900BCC80C /* TransactionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE352272ADC900BCC80C /* TransactionUtil.swift */; };
-		70A8BE852272ADC900BCC80C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE362272ADC900BCC80C /* Transaction.swift */; };
-		70A8BE862272ADC900BCC80C /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE382272ADC900BCC80C /* Contract.swift */; };
-		70A8BE872272ADC900BCC80C /* AccountUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE3A2272ADC900BCC80C /* AccountUtil.swift */; };
-		70A8BE882272ADC900BCC80C /* ResourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE3C2272ADC900BCC80C /* ResourceUtil.swift */; };
-		70A8BE892272ADC900BCC80C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE3E2272ADC900BCC80C /* Currency.swift */; };
-		70A8BE8A2272ADC900BCC80C /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE402272ADC900BCC80C /* Signature.swift */; };
-		70A8BE8B2272ADC900BCC80C /* ChainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE432272ADC900BCC80C /* ChainRouter.swift */; };
-		70A8BE8C2272ADC900BCC80C /* EOSRPC+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE442272ADC900BCC80C /* EOSRPC+Chain.swift */; };
-		70A8BE8D2272ADC900BCC80C /* EOSRPC+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE462272ADC900BCC80C /* EOSRPC+History.swift */; };
-		70A8BE8E2272ADC900BCC80C /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE472272ADC900BCC80C /* HistoryRouter.swift */; };
-		70A8BE8F2272ADC900BCC80C /* EOSRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE492272ADC900BCC80C /* EOSRPC.swift */; };
-		70A8BE902272ADC900BCC80C /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE4A2272ADC900BCC80C /* BaseRouter.swift */; };
-		70A8BE912272ADC900BCC80C /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE4C2272ADC900BCC80C /* KeyPair.swift */; };
-		70A8BE922272ADC900BCC80C /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE4D2272ADC900BCC80C /* PublicKey.swift */; };
-		70A8BE932272ADC900BCC80C /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE4E2272ADC900BCC80C /* PrivateKey.swift */; };
-		70A8BE942272ADC900BCC80C /* ChainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE502272ADC900BCC80C /* ChainModels.swift */; };
-		70A8BE952272ADC900BCC80C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE512272ADC900BCC80C /* Error.swift */; };
-		70A8BE962272ADC900BCC80C /* SEWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE542272ADC900BCC80C /* SEWallet.swift */; };
-		70A8BE972272ADC900BCC80C /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE5C2272ADC900BCC80C /* curve-specific.inc */; };
-		70A8BE982272ADC900BCC80C /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE652272ADC900BCC80C /* platform-specific.inc */; };
-		70A8BE992272ADC900BCC80C /* secp256k1.table in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BE672272ADC900BCC80C /* secp256k1.table */; };
-		70A8BE9A2272ADC900BCC80C /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE702272ADC900BCC80C /* bip39.c */; };
-		70A8BE9B2272ADC900BCC80C /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE712272ADC900BCC80C /* hmac.c */; };
-		70A8BE9C2272ADC900BCC80C /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE722272ADC900BCC80C /* sha2.c */; };
-		70A8BE9D2272ADC900BCC80C /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE732272ADC900BCC80C /* rand.c */; };
-		70A8BE9E2272ADC900BCC80C /* curves.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE742272ADC900BCC80C /* curves.c */; };
-		70A8BE9F2272ADC900BCC80C /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE752272ADC900BCC80C /* secp256k1.c */; };
-		70A8BEA02272ADC900BCC80C /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE762272ADC900BCC80C /* bignum.c */; };
-		70A8BEA12272ADC900BCC80C /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE772272ADC900BCC80C /* ripemd160.c */; };
-		70A8BEA22272ADC900BCC80C /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE782272ADC900BCC80C /* uECC.c */; };
-		70A8BEA32272ADC900BCC80C /* bip32.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE792272ADC900BCC80C /* bip32.c */; };
-		70A8BEA42272ADC900BCC80C /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7A2272ADC900BCC80C /* sha3.c */; };
-		70A8BEA52272ADC900BCC80C /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7B2272ADC900BCC80C /* base58.c */; };
-		70A8BEA62272ADC900BCC80C /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7C2272ADC900BCC80C /* ecdsa.c */; };
-		70A8BEA72272ADC900BCC80C /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7D2272ADC900BCC80C /* pbkdf2.c */; };
 		70A8BEA82272ADC900BCC80C /* EOSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BE7F2272ADC900BCC80C /* EOSModel.m */; };
+		70A8BEFF2272B81700BCC80C /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEAE2272B81700BCC80C /* AnyDecodable.swift */; };
+		70A8BF002272B81700BCC80C /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEAF2272B81700BCC80C /* AnyCodable.swift */; };
+		70A8BF012272B81700BCC80C /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB02272B81700BCC80C /* AnyEncodable.swift */; };
+		70A8BF022272B81700BCC80C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB32272B81700BCC80C /* Crypto.swift */; };
+		70A8BF032272B81700BCC80C /* TransactionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB62272B81700BCC80C /* TransactionUtil.swift */; };
+		70A8BF042272B81700BCC80C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB72272B81700BCC80C /* Transaction.swift */; };
+		70A8BF052272B81700BCC80C /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEB92272B81700BCC80C /* Contract.swift */; };
+		70A8BF062272B81700BCC80C /* AccountUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEBB2272B81700BCC80C /* AccountUtil.swift */; };
+		70A8BF072272B81700BCC80C /* ResourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEBD2272B81700BCC80C /* ResourceUtil.swift */; };
+		70A8BF082272B81700BCC80C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEBF2272B81700BCC80C /* Currency.swift */; };
+		70A8BF092272B81700BCC80C /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEC12272B81700BCC80C /* Signature.swift */; };
+		70A8BF0A2272B81700BCC80C /* ChainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEC42272B81700BCC80C /* ChainRouter.swift */; };
+		70A8BF0B2272B81700BCC80C /* EOSRPC+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEC52272B81700BCC80C /* EOSRPC+Chain.swift */; };
+		70A8BF0C2272B81700BCC80C /* EOSRPC+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEC72272B81700BCC80C /* EOSRPC+History.swift */; };
+		70A8BF0D2272B81700BCC80C /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEC82272B81700BCC80C /* HistoryRouter.swift */; };
+		70A8BF0E2272B81700BCC80C /* EOSRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BECA2272B81700BCC80C /* EOSRPC.swift */; };
+		70A8BF0F2272B81700BCC80C /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BECB2272B81700BCC80C /* BaseRouter.swift */; };
+		70A8BF102272B81700BCC80C /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BECD2272B81700BCC80C /* KeyPair.swift */; };
+		70A8BF112272B81700BCC80C /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BECE2272B81700BCC80C /* PublicKey.swift */; };
+		70A8BF122272B81700BCC80C /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BECF2272B81700BCC80C /* PrivateKey.swift */; };
+		70A8BF132272B81700BCC80C /* ChainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BED12272B81700BCC80C /* ChainModels.swift */; };
+		70A8BF142272B81700BCC80C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BED22272B81700BCC80C /* Error.swift */; };
+		70A8BF152272B81700BCC80C /* SEWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BED52272B81700BCC80C /* SEWallet.swift */; };
+		70A8BF162272B81700BCC80C /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEDD2272B81700BCC80C /* curve-specific.inc */; };
+		70A8BF172272B81700BCC80C /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEE62272B81700BCC80C /* platform-specific.inc */; };
+		70A8BF182272B81700BCC80C /* secp256k1.table in Resources */ = {isa = PBXBuildFile; fileRef = 70A8BEE82272B81700BCC80C /* secp256k1.table */; };
+		70A8BF192272B81700BCC80C /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF12272B81700BCC80C /* bip39.c */; };
+		70A8BF1A2272B81700BCC80C /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF22272B81700BCC80C /* hmac.c */; };
+		70A8BF1B2272B81700BCC80C /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF32272B81700BCC80C /* sha2.c */; };
+		70A8BF1C2272B81700BCC80C /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF42272B81700BCC80C /* rand.c */; };
+		70A8BF1D2272B81700BCC80C /* curves.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF52272B81700BCC80C /* curves.c */; };
+		70A8BF1E2272B81700BCC80C /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF62272B81700BCC80C /* secp256k1.c */; };
+		70A8BF1F2272B81700BCC80C /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF72272B81700BCC80C /* bignum.c */; };
+		70A8BF202272B81700BCC80C /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF82272B81700BCC80C /* ripemd160.c */; };
+		70A8BF212272B81700BCC80C /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEF92272B81700BCC80C /* uECC.c */; };
+		70A8BF222272B81700BCC80C /* bip32.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFA2272B81700BCC80C /* bip32.c */; };
+		70A8BF232272B81700BCC80C /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFB2272B81700BCC80C /* sha3.c */; };
+		70A8BF242272B81700BCC80C /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFC2272B81700BCC80C /* base58.c */; };
+		70A8BF252272B81700BCC80C /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFD2272B81700BCC80C /* ecdsa.c */; };
+		70A8BF262272B81700BCC80C /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70A8BEFE2272B81700BCC80C /* pbkdf2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,69 +67,69 @@
 		70A8BE202272AD8000BCC80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A8BE222272AD8000BCC80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A8BE232272AD8000BCC80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70A8BE2D2272ADC900BCC80C /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
-		70A8BE2E2272ADC900BCC80C /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
-		70A8BE2F2272ADC900BCC80C /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
-		70A8BE322272ADC900BCC80C /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
-		70A8BE352272ADC900BCC80C /* TransactionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUtil.swift; sourceTree = "<group>"; };
-		70A8BE362272ADC900BCC80C /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		70A8BE382272ADC900BCC80C /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
-		70A8BE3A2272ADC900BCC80C /* AccountUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUtil.swift; sourceTree = "<group>"; };
-		70A8BE3C2272ADC900BCC80C /* ResourceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
-		70A8BE3E2272ADC900BCC80C /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
-		70A8BE402272ADC900BCC80C /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
-		70A8BE432272ADC900BCC80C /* ChainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainRouter.swift; sourceTree = "<group>"; };
-		70A8BE442272ADC900BCC80C /* EOSRPC+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+Chain.swift"; sourceTree = "<group>"; };
-		70A8BE462272ADC900BCC80C /* EOSRPC+History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+History.swift"; sourceTree = "<group>"; };
-		70A8BE472272ADC900BCC80C /* HistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
-		70A8BE492272ADC900BCC80C /* EOSRPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOSRPC.swift; sourceTree = "<group>"; };
-		70A8BE4A2272ADC900BCC80C /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
-		70A8BE4C2272ADC900BCC80C /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
-		70A8BE4D2272ADC900BCC80C /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
-		70A8BE4E2272ADC900BCC80C /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
-		70A8BE502272ADC900BCC80C /* ChainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainModels.swift; sourceTree = "<group>"; };
-		70A8BE512272ADC900BCC80C /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		70A8BE542272ADC900BCC80C /* SEWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEWallet.swift; sourceTree = "<group>"; };
-		70A8BE572272ADC900BCC80C /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
-		70A8BE582272ADC900BCC80C /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
-		70A8BE592272ADC900BCC80C /* asm_arm.inc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm_arm.inc.h; sourceTree = "<group>"; };
-		70A8BE5A2272ADC900BCC80C /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
-		70A8BE5B2272ADC900BCC80C /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
-		70A8BE5C2272ADC900BCC80C /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
-		70A8BE5D2272ADC900BCC80C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		70A8BE5E2272ADC900BCC80C /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
-		70A8BE5F2272ADC900BCC80C /* bip32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip32.h; sourceTree = "<group>"; };
-		70A8BE602272ADC900BCC80C /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		70A8BE612272ADC900BCC80C /* pbkdf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbkdf2.h; sourceTree = "<group>"; };
-		70A8BE622272ADC900BCC80C /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
-		70A8BE632272ADC900BCC80C /* bip39_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39_english.h; sourceTree = "<group>"; };
-		70A8BE642272ADC900BCC80C /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
-		70A8BE652272ADC900BCC80C /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
-		70A8BE662272ADC900BCC80C /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		70A8BE672272ADC900BCC80C /* secp256k1.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secp256k1.table; sourceTree = "<group>"; };
-		70A8BE682272ADC900BCC80C /* bip39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
-		70A8BE692272ADC900BCC80C /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
-		70A8BE6A2272ADC900BCC80C /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
-		70A8BE6B2272ADC900BCC80C /* curves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curves.h; sourceTree = "<group>"; };
-		70A8BE6D2272ADC900BCC80C /* bignum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
-		70A8BE6E2272ADC900BCC80C /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
-		70A8BE702272ADC900BCC80C /* bip39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
-		70A8BE712272ADC900BCC80C /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
-		70A8BE722272ADC900BCC80C /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
-		70A8BE732272ADC900BCC80C /* rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rand.c; sourceTree = "<group>"; };
-		70A8BE742272ADC900BCC80C /* curves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curves.c; sourceTree = "<group>"; };
-		70A8BE752272ADC900BCC80C /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
-		70A8BE762272ADC900BCC80C /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
-		70A8BE772272ADC900BCC80C /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
-		70A8BE782272ADC900BCC80C /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
-		70A8BE792272ADC900BCC80C /* bip32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip32.c; sourceTree = "<group>"; };
-		70A8BE7A2272ADC900BCC80C /* sha3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
-		70A8BE7B2272ADC900BCC80C /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		70A8BE7C2272ADC900BCC80C /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
-		70A8BE7D2272ADC900BCC80C /* pbkdf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
 		70A8BE7E2272ADC900BCC80C /* EOSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSModel.h; sourceTree = "<group>"; };
 		70A8BE7F2272ADC900BCC80C /* EOSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSModel.m; sourceTree = "<group>"; };
-		70A8BEA92272AE1800BCC80C /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		70A8BEAE2272B81700BCC80C /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		70A8BEAF2272B81700BCC80C /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		70A8BEB02272B81700BCC80C /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
+		70A8BEB32272B81700BCC80C /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		70A8BEB62272B81700BCC80C /* TransactionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUtil.swift; sourceTree = "<group>"; };
+		70A8BEB72272B81700BCC80C /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		70A8BEB92272B81700BCC80C /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		70A8BEBB2272B81700BCC80C /* AccountUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUtil.swift; sourceTree = "<group>"; };
+		70A8BEBD2272B81700BCC80C /* ResourceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
+		70A8BEBF2272B81700BCC80C /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		70A8BEC12272B81700BCC80C /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		70A8BEC42272B81700BCC80C /* ChainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainRouter.swift; sourceTree = "<group>"; };
+		70A8BEC52272B81700BCC80C /* EOSRPC+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+Chain.swift"; sourceTree = "<group>"; };
+		70A8BEC72272B81700BCC80C /* EOSRPC+History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+History.swift"; sourceTree = "<group>"; };
+		70A8BEC82272B81700BCC80C /* HistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
+		70A8BECA2272B81700BCC80C /* EOSRPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOSRPC.swift; sourceTree = "<group>"; };
+		70A8BECB2272B81700BCC80C /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		70A8BECD2272B81700BCC80C /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		70A8BECE2272B81700BCC80C /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		70A8BECF2272B81700BCC80C /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		70A8BED12272B81700BCC80C /* ChainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainModels.swift; sourceTree = "<group>"; };
+		70A8BED22272B81700BCC80C /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		70A8BED52272B81700BCC80C /* SEWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEWallet.swift; sourceTree = "<group>"; };
+		70A8BED82272B81700BCC80C /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		70A8BED92272B81700BCC80C /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		70A8BEDA2272B81700BCC80C /* asm_arm.inc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm_arm.inc.h; sourceTree = "<group>"; };
+		70A8BEDB2272B81700BCC80C /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
+		70A8BEDC2272B81700BCC80C /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
+		70A8BEDD2272B81700BCC80C /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
+		70A8BEDE2272B81700BCC80C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		70A8BEDF2272B81700BCC80C /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
+		70A8BEE02272B81700BCC80C /* bip32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip32.h; sourceTree = "<group>"; };
+		70A8BEE12272B81700BCC80C /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		70A8BEE22272B81700BCC80C /* pbkdf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbkdf2.h; sourceTree = "<group>"; };
+		70A8BEE32272B81700BCC80C /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		70A8BEE42272B81700BCC80C /* bip39_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39_english.h; sourceTree = "<group>"; };
+		70A8BEE52272B81700BCC80C /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		70A8BEE62272B81700BCC80C /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
+		70A8BEE72272B81700BCC80C /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		70A8BEE82272B81700BCC80C /* secp256k1.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secp256k1.table; sourceTree = "<group>"; };
+		70A8BEE92272B81700BCC80C /* bip39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
+		70A8BEEA2272B81700BCC80C /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		70A8BEEB2272B81700BCC80C /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		70A8BEEC2272B81700BCC80C /* curves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curves.h; sourceTree = "<group>"; };
+		70A8BEED2272B81700BCC80C /* bignum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
+		70A8BEEE2272B81700BCC80C /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		70A8BEEF2272B81700BCC80C /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		70A8BEF12272B81700BCC80C /* bip39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
+		70A8BEF22272B81700BCC80C /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		70A8BEF32272B81700BCC80C /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		70A8BEF42272B81700BCC80C /* rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rand.c; sourceTree = "<group>"; };
+		70A8BEF52272B81700BCC80C /* curves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curves.c; sourceTree = "<group>"; };
+		70A8BEF62272B81700BCC80C /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		70A8BEF72272B81700BCC80C /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
+		70A8BEF82272B81700BCC80C /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		70A8BEF92272B81700BCC80C /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		70A8BEFA2272B81700BCC80C /* bip32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip32.c; sourceTree = "<group>"; };
+		70A8BEFB2272B81700BCC80C /* sha3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
+		70A8BEFC2272B81700BCC80C /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		70A8BEFD2272B81700BCC80C /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
+		70A8BEFE2272B81700BCC80C /* pbkdf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,10 +162,10 @@
 		70A8BE132272AD7E00BCC80C /* KFEOSTEST */ = {
 			isa = PBXGroup;
 			children = (
+				70A8BED62272B81700BCC80C /* Libraries */,
+				70A8BEAC2272B81700BCC80C /* Sources */,
 				70A8BE7E2272ADC900BCC80C /* EOSModel.h */,
 				70A8BE7F2272ADC900BCC80C /* EOSModel.m */,
-				70A8BE552272ADC900BCC80C /* Libraries */,
-				70A8BE2B2272ADC900BCC80C /* Sources */,
 				70A8BE142272AD7E00BCC80C /* AppDelegate.h */,
 				70A8BE152272AD7E00BCC80C /* AppDelegate.m */,
 				70A8BE172272AD7E00BCC80C /* ViewController.h */,
@@ -179,237 +179,239 @@
 			path = KFEOSTEST;
 			sourceTree = "<group>";
 		};
-		70A8BE2B2272ADC900BCC80C /* Sources */ = {
+		70A8BEAC2272B81700BCC80C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE2C2272ADC900BCC80C /* AnyCodable */,
-				70A8BE302272ADC900BCC80C /* SwiftyEOS */,
-				70A8BE522272ADC900BCC80C /* Utils */,
+				70A8BEAD2272B81700BCC80C /* AnyCodable */,
+				70A8BEB12272B81700BCC80C /* SwiftyEOS */,
+				70A8BED32272B81700BCC80C /* Utils */,
 			);
-			path = Sources;
+			name = Sources;
+			path = KFEOSSDK/Sources;
 			sourceTree = "<group>";
 		};
-		70A8BE2C2272ADC900BCC80C /* AnyCodable */ = {
+		70A8BEAD2272B81700BCC80C /* AnyCodable */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE2D2272ADC900BCC80C /* AnyDecodable.swift */,
-				70A8BE2E2272ADC900BCC80C /* AnyCodable.swift */,
-				70A8BE2F2272ADC900BCC80C /* AnyEncodable.swift */,
+				70A8BEAE2272B81700BCC80C /* AnyDecodable.swift */,
+				70A8BEAF2272B81700BCC80C /* AnyCodable.swift */,
+				70A8BEB02272B81700BCC80C /* AnyEncodable.swift */,
 			);
 			path = AnyCodable;
 			sourceTree = "<group>";
 		};
-		70A8BE302272ADC900BCC80C /* SwiftyEOS */ = {
+		70A8BEB12272B81700BCC80C /* SwiftyEOS */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE312272ADC900BCC80C /* Crypto */,
-				70A8BE332272ADC900BCC80C /* Contract */,
-				70A8BE3F2272ADC900BCC80C /* Signature */,
-				70A8BE412272ADC900BCC80C /* Network */,
-				70A8BE4B2272ADC900BCC80C /* Key */,
-				70A8BE4F2272ADC900BCC80C /* Models */,
+				70A8BEB22272B81700BCC80C /* Crypto */,
+				70A8BEB42272B81700BCC80C /* Contract */,
+				70A8BEC02272B81700BCC80C /* Signature */,
+				70A8BEC22272B81700BCC80C /* Network */,
+				70A8BECC2272B81700BCC80C /* Key */,
+				70A8BED02272B81700BCC80C /* Models */,
 			);
 			path = SwiftyEOS;
 			sourceTree = "<group>";
 		};
-		70A8BE312272ADC900BCC80C /* Crypto */ = {
+		70A8BEB22272B81700BCC80C /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE322272ADC900BCC80C /* Crypto.swift */,
+				70A8BEB32272B81700BCC80C /* Crypto.swift */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
 		};
-		70A8BE332272ADC900BCC80C /* Contract */ = {
+		70A8BEB42272B81700BCC80C /* Contract */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE342272ADC900BCC80C /* transaction */,
-				70A8BE372272ADC900BCC80C /* contract */,
-				70A8BE392272ADC900BCC80C /* account */,
-				70A8BE3B2272ADC900BCC80C /* resource */,
-				70A8BE3D2272ADC900BCC80C /* currency */,
+				70A8BEB52272B81700BCC80C /* transaction */,
+				70A8BEB82272B81700BCC80C /* contract */,
+				70A8BEBA2272B81700BCC80C /* account */,
+				70A8BEBC2272B81700BCC80C /* resource */,
+				70A8BEBE2272B81700BCC80C /* currency */,
 			);
 			path = Contract;
 			sourceTree = "<group>";
 		};
-		70A8BE342272ADC900BCC80C /* transaction */ = {
+		70A8BEB52272B81700BCC80C /* transaction */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE352272ADC900BCC80C /* TransactionUtil.swift */,
-				70A8BE362272ADC900BCC80C /* Transaction.swift */,
+				70A8BEB62272B81700BCC80C /* TransactionUtil.swift */,
+				70A8BEB72272B81700BCC80C /* Transaction.swift */,
 			);
 			path = transaction;
 			sourceTree = "<group>";
 		};
-		70A8BE372272ADC900BCC80C /* contract */ = {
+		70A8BEB82272B81700BCC80C /* contract */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE382272ADC900BCC80C /* Contract.swift */,
+				70A8BEB92272B81700BCC80C /* Contract.swift */,
 			);
 			path = contract;
 			sourceTree = "<group>";
 		};
-		70A8BE392272ADC900BCC80C /* account */ = {
+		70A8BEBA2272B81700BCC80C /* account */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE3A2272ADC900BCC80C /* AccountUtil.swift */,
+				70A8BEBB2272B81700BCC80C /* AccountUtil.swift */,
 			);
 			path = account;
 			sourceTree = "<group>";
 		};
-		70A8BE3B2272ADC900BCC80C /* resource */ = {
+		70A8BEBC2272B81700BCC80C /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE3C2272ADC900BCC80C /* ResourceUtil.swift */,
+				70A8BEBD2272B81700BCC80C /* ResourceUtil.swift */,
 			);
 			path = resource;
 			sourceTree = "<group>";
 		};
-		70A8BE3D2272ADC900BCC80C /* currency */ = {
+		70A8BEBE2272B81700BCC80C /* currency */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE3E2272ADC900BCC80C /* Currency.swift */,
+				70A8BEBF2272B81700BCC80C /* Currency.swift */,
 			);
 			path = currency;
 			sourceTree = "<group>";
 		};
-		70A8BE3F2272ADC900BCC80C /* Signature */ = {
+		70A8BEC02272B81700BCC80C /* Signature */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE402272ADC900BCC80C /* Signature.swift */,
+				70A8BEC12272B81700BCC80C /* Signature.swift */,
 			);
 			path = Signature;
 			sourceTree = "<group>";
 		};
-		70A8BE412272ADC900BCC80C /* Network */ = {
+		70A8BEC22272B81700BCC80C /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE422272ADC900BCC80C /* Chain */,
-				70A8BE452272ADC900BCC80C /* History */,
-				70A8BE482272ADC900BCC80C /* Base */,
+				70A8BEC32272B81700BCC80C /* Chain */,
+				70A8BEC62272B81700BCC80C /* History */,
+				70A8BEC92272B81700BCC80C /* Base */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		70A8BE422272ADC900BCC80C /* Chain */ = {
+		70A8BEC32272B81700BCC80C /* Chain */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE432272ADC900BCC80C /* ChainRouter.swift */,
-				70A8BE442272ADC900BCC80C /* EOSRPC+Chain.swift */,
+				70A8BEC42272B81700BCC80C /* ChainRouter.swift */,
+				70A8BEC52272B81700BCC80C /* EOSRPC+Chain.swift */,
 			);
 			path = Chain;
 			sourceTree = "<group>";
 		};
-		70A8BE452272ADC900BCC80C /* History */ = {
+		70A8BEC62272B81700BCC80C /* History */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE462272ADC900BCC80C /* EOSRPC+History.swift */,
-				70A8BE472272ADC900BCC80C /* HistoryRouter.swift */,
+				70A8BEC72272B81700BCC80C /* EOSRPC+History.swift */,
+				70A8BEC82272B81700BCC80C /* HistoryRouter.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
 		};
-		70A8BE482272ADC900BCC80C /* Base */ = {
+		70A8BEC92272B81700BCC80C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE492272ADC900BCC80C /* EOSRPC.swift */,
-				70A8BE4A2272ADC900BCC80C /* BaseRouter.swift */,
+				70A8BECA2272B81700BCC80C /* EOSRPC.swift */,
+				70A8BECB2272B81700BCC80C /* BaseRouter.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		70A8BE4B2272ADC900BCC80C /* Key */ = {
+		70A8BECC2272B81700BCC80C /* Key */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE4C2272ADC900BCC80C /* KeyPair.swift */,
-				70A8BE4D2272ADC900BCC80C /* PublicKey.swift */,
-				70A8BE4E2272ADC900BCC80C /* PrivateKey.swift */,
+				70A8BECD2272B81700BCC80C /* KeyPair.swift */,
+				70A8BECE2272B81700BCC80C /* PublicKey.swift */,
+				70A8BECF2272B81700BCC80C /* PrivateKey.swift */,
 			);
 			path = Key;
 			sourceTree = "<group>";
 		};
-		70A8BE4F2272ADC900BCC80C /* Models */ = {
+		70A8BED02272B81700BCC80C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE502272ADC900BCC80C /* ChainModels.swift */,
-				70A8BE512272ADC900BCC80C /* Error.swift */,
+				70A8BED12272B81700BCC80C /* ChainModels.swift */,
+				70A8BED22272B81700BCC80C /* Error.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		70A8BE522272ADC900BCC80C /* Utils */ = {
+		70A8BED32272B81700BCC80C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE532272ADC900BCC80C /* iOS */,
+				70A8BED42272B81700BCC80C /* iOS */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		70A8BE532272ADC900BCC80C /* iOS */ = {
+		70A8BED42272B81700BCC80C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE542272ADC900BCC80C /* SEWallet.swift */,
+				70A8BED52272B81700BCC80C /* SEWallet.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		70A8BE552272ADC900BCC80C /* Libraries */ = {
+		70A8BED62272B81700BCC80C /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BEA92272AE1800BCC80C /* Bridging-Header.h */,
-				70A8BE562272ADC900BCC80C /* include */,
-				70A8BE6F2272ADC900BCC80C /* src */,
+				70A8BED72272B81700BCC80C /* include */,
+				70A8BEEF2272B81700BCC80C /* Bridging-Header.h */,
+				70A8BEF02272B81700BCC80C /* src */,
 			);
-			path = Libraries;
+			name = Libraries;
+			path = KFEOSSDK/Libraries;
 			sourceTree = "<group>";
 		};
-		70A8BE562272ADC900BCC80C /* include */ = {
+		70A8BED72272B81700BCC80C /* include */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE572272ADC900BCC80C /* uECC.h */,
-				70A8BE582272ADC900BCC80C /* ripemd160.h */,
-				70A8BE592272ADC900BCC80C /* asm_arm.inc.h */,
-				70A8BE5A2272ADC900BCC80C /* uECC_vli.h */,
-				70A8BE5B2272ADC900BCC80C /* libbase58.h */,
-				70A8BE5C2272ADC900BCC80C /* curve-specific.inc */,
-				70A8BE5D2272ADC900BCC80C /* types.h */,
-				70A8BE5E2272ADC900BCC80C /* sha3.h */,
-				70A8BE5F2272ADC900BCC80C /* bip32.h */,
-				70A8BE602272ADC900BCC80C /* ecdsa.h */,
-				70A8BE612272ADC900BCC80C /* pbkdf2.h */,
-				70A8BE622272ADC900BCC80C /* options.h */,
-				70A8BE632272ADC900BCC80C /* bip39_english.h */,
-				70A8BE642272ADC900BCC80C /* sha2.h */,
-				70A8BE652272ADC900BCC80C /* platform-specific.inc */,
-				70A8BE662272ADC900BCC80C /* hmac.h */,
-				70A8BE672272ADC900BCC80C /* secp256k1.table */,
-				70A8BE682272ADC900BCC80C /* bip39.h */,
-				70A8BE692272ADC900BCC80C /* macros.h */,
-				70A8BE6A2272ADC900BCC80C /* rand.h */,
-				70A8BE6B2272ADC900BCC80C /* curves.h */,
-				70A8BE6D2272ADC900BCC80C /* bignum.h */,
-				70A8BE6E2272ADC900BCC80C /* secp256k1.h */,
+				70A8BED82272B81700BCC80C /* uECC.h */,
+				70A8BED92272B81700BCC80C /* ripemd160.h */,
+				70A8BEDA2272B81700BCC80C /* asm_arm.inc.h */,
+				70A8BEDB2272B81700BCC80C /* uECC_vli.h */,
+				70A8BEDC2272B81700BCC80C /* libbase58.h */,
+				70A8BEDD2272B81700BCC80C /* curve-specific.inc */,
+				70A8BEDE2272B81700BCC80C /* types.h */,
+				70A8BEDF2272B81700BCC80C /* sha3.h */,
+				70A8BEE02272B81700BCC80C /* bip32.h */,
+				70A8BEE12272B81700BCC80C /* ecdsa.h */,
+				70A8BEE22272B81700BCC80C /* pbkdf2.h */,
+				70A8BEE32272B81700BCC80C /* options.h */,
+				70A8BEE42272B81700BCC80C /* bip39_english.h */,
+				70A8BEE52272B81700BCC80C /* sha2.h */,
+				70A8BEE62272B81700BCC80C /* platform-specific.inc */,
+				70A8BEE72272B81700BCC80C /* hmac.h */,
+				70A8BEE82272B81700BCC80C /* secp256k1.table */,
+				70A8BEE92272B81700BCC80C /* bip39.h */,
+				70A8BEEA2272B81700BCC80C /* macros.h */,
+				70A8BEEB2272B81700BCC80C /* rand.h */,
+				70A8BEEC2272B81700BCC80C /* curves.h */,
+				70A8BEED2272B81700BCC80C /* bignum.h */,
+				70A8BEEE2272B81700BCC80C /* secp256k1.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		70A8BE6F2272ADC900BCC80C /* src */ = {
+		70A8BEF02272B81700BCC80C /* src */ = {
 			isa = PBXGroup;
 			children = (
-				70A8BE702272ADC900BCC80C /* bip39.c */,
-				70A8BE712272ADC900BCC80C /* hmac.c */,
-				70A8BE722272ADC900BCC80C /* sha2.c */,
-				70A8BE732272ADC900BCC80C /* rand.c */,
-				70A8BE742272ADC900BCC80C /* curves.c */,
-				70A8BE752272ADC900BCC80C /* secp256k1.c */,
-				70A8BE762272ADC900BCC80C /* bignum.c */,
-				70A8BE772272ADC900BCC80C /* ripemd160.c */,
-				70A8BE782272ADC900BCC80C /* uECC.c */,
-				70A8BE792272ADC900BCC80C /* bip32.c */,
-				70A8BE7A2272ADC900BCC80C /* sha3.c */,
-				70A8BE7B2272ADC900BCC80C /* base58.c */,
-				70A8BE7C2272ADC900BCC80C /* ecdsa.c */,
-				70A8BE7D2272ADC900BCC80C /* pbkdf2.c */,
+				70A8BEF12272B81700BCC80C /* bip39.c */,
+				70A8BEF22272B81700BCC80C /* hmac.c */,
+				70A8BEF32272B81700BCC80C /* sha2.c */,
+				70A8BEF42272B81700BCC80C /* rand.c */,
+				70A8BEF52272B81700BCC80C /* curves.c */,
+				70A8BEF62272B81700BCC80C /* secp256k1.c */,
+				70A8BEF72272B81700BCC80C /* bignum.c */,
+				70A8BEF82272B81700BCC80C /* ripemd160.c */,
+				70A8BEF92272B81700BCC80C /* uECC.c */,
+				70A8BEFA2272B81700BCC80C /* bip32.c */,
+				70A8BEFB2272B81700BCC80C /* sha3.c */,
+				70A8BEFC2272B81700BCC80C /* base58.c */,
+				70A8BEFD2272B81700BCC80C /* ecdsa.c */,
+				70A8BEFE2272B81700BCC80C /* pbkdf2.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -472,7 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A8BE212272AD8000BCC80C /* LaunchScreen.storyboard in Resources */,
-				70A8BE992272ADC900BCC80C /* secp256k1.table in Resources */,
+				70A8BF182272B81700BCC80C /* secp256k1.table in Resources */,
 				70A8BE1E2272AD8000BCC80C /* Assets.xcassets in Resources */,
 				70A8BE1C2272AD7E00BCC80C /* Main.storyboard in Resources */,
 			);
@@ -485,49 +487,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A8BE9B2272ADC900BCC80C /* hmac.c in Sources */,
-				70A8BEA52272ADC900BCC80C /* base58.c in Sources */,
-				70A8BE972272ADC900BCC80C /* curve-specific.inc in Sources */,
-				70A8BEA32272ADC900BCC80C /* bip32.c in Sources */,
-				70A8BE802272ADC900BCC80C /* AnyDecodable.swift in Sources */,
-				70A8BE8E2272ADC900BCC80C /* HistoryRouter.swift in Sources */,
-				70A8BEA22272ADC900BCC80C /* uECC.c in Sources */,
-				70A8BE9F2272ADC900BCC80C /* secp256k1.c in Sources */,
+				70A8BF0A2272B81700BCC80C /* ChainRouter.swift in Sources */,
+				70A8BF242272B81700BCC80C /* base58.c in Sources */,
+				70A8BF212272B81700BCC80C /* uECC.c in Sources */,
+				70A8BF022272B81700BCC80C /* Crypto.swift in Sources */,
+				70A8BF162272B81700BCC80C /* curve-specific.inc in Sources */,
+				70A8BF152272B81700BCC80C /* SEWallet.swift in Sources */,
+				70A8BF112272B81700BCC80C /* PublicKey.swift in Sources */,
+				70A8BF1B2272B81700BCC80C /* sha2.c in Sources */,
+				70A8BF0D2272B81700BCC80C /* HistoryRouter.swift in Sources */,
+				70A8BF202272B81700BCC80C /* ripemd160.c in Sources */,
+				70A8BF1D2272B81700BCC80C /* curves.c in Sources */,
 				70A8BE192272AD7E00BCC80C /* ViewController.m in Sources */,
-				70A8BE8A2272ADC900BCC80C /* Signature.swift in Sources */,
-				70A8BE922272ADC900BCC80C /* PublicKey.swift in Sources */,
-				70A8BE812272ADC900BCC80C /* AnyCodable.swift in Sources */,
-				70A8BEA02272ADC900BCC80C /* bignum.c in Sources */,
-				70A8BE8B2272ADC900BCC80C /* ChainRouter.swift in Sources */,
-				70A8BEA42272ADC900BCC80C /* sha3.c in Sources */,
-				70A8BEA62272ADC900BCC80C /* ecdsa.c in Sources */,
-				70A8BE862272ADC900BCC80C /* Contract.swift in Sources */,
 				70A8BEA82272ADC900BCC80C /* EOSModel.m in Sources */,
-				70A8BEA12272ADC900BCC80C /* ripemd160.c in Sources */,
-				70A8BE902272ADC900BCC80C /* BaseRouter.swift in Sources */,
+				70A8BF092272B81700BCC80C /* Signature.swift in Sources */,
+				70A8BF192272B81700BCC80C /* bip39.c in Sources */,
+				70A8BF172272B81700BCC80C /* platform-specific.inc in Sources */,
 				70A8BE242272AD8000BCC80C /* main.m in Sources */,
-				70A8BE9E2272ADC900BCC80C /* curves.c in Sources */,
-				70A8BE932272ADC900BCC80C /* PrivateKey.swift in Sources */,
-				70A8BE942272ADC900BCC80C /* ChainModels.swift in Sources */,
-				70A8BE912272ADC900BCC80C /* KeyPair.swift in Sources */,
-				70A8BE8D2272ADC900BCC80C /* EOSRPC+History.swift in Sources */,
-				70A8BE8C2272ADC900BCC80C /* EOSRPC+Chain.swift in Sources */,
-				70A8BE842272ADC900BCC80C /* TransactionUtil.swift in Sources */,
-				70A8BE982272ADC900BCC80C /* platform-specific.inc in Sources */,
-				70A8BE822272ADC900BCC80C /* AnyEncodable.swift in Sources */,
-				70A8BE8F2272ADC900BCC80C /* EOSRPC.swift in Sources */,
-				70A8BE962272ADC900BCC80C /* SEWallet.swift in Sources */,
-				70A8BE882272ADC900BCC80C /* ResourceUtil.swift in Sources */,
-				70A8BE892272ADC900BCC80C /* Currency.swift in Sources */,
-				70A8BE9A2272ADC900BCC80C /* bip39.c in Sources */,
-				70A8BE9C2272ADC900BCC80C /* sha2.c in Sources */,
-				70A8BE832272ADC900BCC80C /* Crypto.swift in Sources */,
-				70A8BEA72272ADC900BCC80C /* pbkdf2.c in Sources */,
-				70A8BE872272ADC900BCC80C /* AccountUtil.swift in Sources */,
-				70A8BE9D2272ADC900BCC80C /* rand.c in Sources */,
+				70A8BF042272B81700BCC80C /* Transaction.swift in Sources */,
+				70A8BF072272B81700BCC80C /* ResourceUtil.swift in Sources */,
+				70A8BF222272B81700BCC80C /* bip32.c in Sources */,
+				70A8BF032272B81700BCC80C /* TransactionUtil.swift in Sources */,
+				70A8BF052272B81700BCC80C /* Contract.swift in Sources */,
+				70A8BF012272B81700BCC80C /* AnyEncodable.swift in Sources */,
+				70A8BF1F2272B81700BCC80C /* bignum.c in Sources */,
 				70A8BE162272AD7E00BCC80C /* AppDelegate.m in Sources */,
-				70A8BE952272ADC900BCC80C /* Error.swift in Sources */,
-				70A8BE852272ADC900BCC80C /* Transaction.swift in Sources */,
+				70A8BF1C2272B81700BCC80C /* rand.c in Sources */,
+				70A8BF102272B81700BCC80C /* KeyPair.swift in Sources */,
+				70A8BF0C2272B81700BCC80C /* EOSRPC+History.swift in Sources */,
+				70A8BF142272B81700BCC80C /* Error.swift in Sources */,
+				70A8BEFF2272B81700BCC80C /* AnyDecodable.swift in Sources */,
+				70A8BF252272B81700BCC80C /* ecdsa.c in Sources */,
+				70A8BF0B2272B81700BCC80C /* EOSRPC+Chain.swift in Sources */,
+				70A8BF232272B81700BCC80C /* sha3.c in Sources */,
+				70A8BF0F2272B81700BCC80C /* BaseRouter.swift in Sources */,
+				70A8BF002272B81700BCC80C /* AnyCodable.swift in Sources */,
+				70A8BF082272B81700BCC80C /* Currency.swift in Sources */,
+				70A8BF062272B81700BCC80C /* AccountUtil.swift in Sources */,
+				70A8BF1E2272B81700BCC80C /* secp256k1.c in Sources */,
+				70A8BF262272B81700BCC80C /* pbkdf2.c in Sources */,
+				70A8BF132272B81700BCC80C /* ChainModels.swift in Sources */,
+				70A8BF0E2272B81700BCC80C /* EOSRPC.swift in Sources */,
+				70A8BF122272B81700BCC80C /* PrivateKey.swift in Sources */,
+				70A8BF1A2272B81700BCC80C /* hmac.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +672,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KFEOSTEST/Libraries/include\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KFEOSTEST/KFEOSSDK/Libraries/include\"";
 				INFOPLIST_FILE = KFEOSTEST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ont.wallet.KFEOSTEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "KFEOSTEST/Libraries/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "KFEOSTEST/KFEOSSDK/Libraries/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -689,7 +691,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KFEOSTEST/Libraries/include\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/KFEOSTEST/KFEOSSDK/Libraries/include\"";
 				INFOPLIST_FILE = KFEOSTEST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -697,7 +699,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ont.wallet.KFEOSTEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "KFEOSTEST/Libraries/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "KFEOSTEST/KFEOSSDK/Libraries/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
